@@ -7,7 +7,6 @@ Group:			Graphical desktop/GNOME
 Source0:		%{name}-%{version}.tar.bz2
 Patch1:			gcursor-0.061-desktopicon.patch.bz2
 URL:			http://qballcow.nl/?s=14
-BuildRoot:		%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:		libglade2.0-devel libgnomeui2-devel perl-XML-Parser 
 Requires:		cursor_themes
 
