@@ -1,7 +1,7 @@
 Summary:		A little gtk program to change your Xcursor with animated preview
 Name:			gcursor
 Version: 		0.061
-Release: 		 %mkrel 5
+Release: 		 %mkrel 6
 License:		GPL
 Group:			Graphical desktop/GNOME
 Source0:		%{name}-%{version}.tar.bz2
