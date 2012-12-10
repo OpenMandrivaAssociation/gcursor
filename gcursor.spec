@@ -42,3 +42,38 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/applications/gcursor.desktop
 %{_datadir}/gcursor/gcursor.glade
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.061-6mdv2011.0
++ Revision: 618432
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.061-5mdv2010.0
++ Revision: 429184
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.061-4mdv2009.0
++ Revision: 245779
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 0.061-2mdv2008.1
++ Revision: 125531
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import gcursor
+
+
+* Mon Jun 27 2005 Pascal Terjan <pterjan@mandriva.org> 0.061-2mdk
+- BuildRequires perl-XML-Parser for embedded intltool
+
+* Sun May 08 2005 Pascal Terjan <pterjan@mandriva.org> 0.061-1mdk
+- Don't explicitly Requires libgtk+2.0
+- BuildRequires libglade2.0-devel and libgnomeui2-devel
+- Don't BuildRequires libgtk+2.0-devel, it will be implied
+- Don't ship NEWS and README as they are empty
+- From Tigrux <tigrux@ximian.com>
+ - First rpm for Mandriva

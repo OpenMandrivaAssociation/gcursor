@@ -1,2 +1,3 @@
 sources:
-  "gcursor-0.061.tar.bz2:"	17bed3b16420d7f6eea2ce716352d6eba662d97b
+  "gcursor-0.061-desktopicon.patch.bz2": ccb92fe96b26d8ae30b34245704e562142c14837
+  "gcursor-0.061.tar.bz2": 17bed3b16420d7f6eea2ce716352d6eba662d97b
